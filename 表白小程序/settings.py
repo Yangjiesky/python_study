@@ -17,3 +17,4 @@ font_path = os.path.join(os.getcwd(), 'font\\stxingka.ttf')
 
 # 背景图片路径
 bg_pic_path = os.path.join(os.getcwd(), 'image\\bg.png')
+icon_path = os.path.join(os.getcwd(), 'image\\bixin.png')

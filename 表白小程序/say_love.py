@@ -13,9 +13,9 @@ def main():
 	# 初始化屏幕对象
 	pygame.init()
 	screen = pygame.display.set_mode(st.screen_size, 0, 32)
-	#pygame.display.set_icon(pygame.image.load(st.bg_pic_path))
+	pygame.display.set_icon(pygame.image.load(st.icon_path))
 	pygame.display.set_caption('To my dearest one.')
-	#pygame.display.set_caption('来自一位小哥哥的')
+
 
 	# 背景音乐
 	pygame.mixer.music.load(st.bgm_path)
